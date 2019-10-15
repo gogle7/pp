@@ -1,0 +1,7 @@
+day=int(input("Enter the days.\n"))
+y=int(day/365)
+rm=int(day%365)
+w=int(rm/7)
+rm=int(rm%7)
+print("Years= "+str(y)+"\nWeeks= "+str(w)+"\nDays= "+str(rm))
+print(f"Years {y} Weeks {w} Days {rm}")
